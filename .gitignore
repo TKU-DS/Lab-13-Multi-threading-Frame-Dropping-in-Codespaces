@@ -1,12 +1,15 @@
 # Python
 __pycache__/
 *.py[cod]
-.env
 
-# Models & Data (Do not commit these)
+# Ultralytics & Models
 *.pt
-*.jpg
+runs/
+
+# Video & Image assets
 *.mp4
+*.jpg
+*.png
 
 # OS
 .DS_Store
